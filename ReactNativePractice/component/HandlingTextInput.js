@@ -4,7 +4,7 @@ import {Text, TextInput, View} from 'react-native';
 const PizzaTranslator = () => {
   const [text, setText] = useState('');
   return (
-    <View style={{padding: 1}}>
+    <View style={{padding: 10}}>
       <TextInput
         style={{height: 40, borderColor: 'black', borderWidth: 1}}
         placeholder="Type here to translate!"
