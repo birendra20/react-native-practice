@@ -4,6 +4,9 @@ import ActivityIndicatorEg from './component/ActivityIndicatorEg';
 import ButtonApp from './component/Button';
 
 import PizzaTranslator from './component/HandlingTextInput';
+import ImageBackGroundEg from './component/ImageBackGroundEg';
+import ImageEg from './component/ImageEg';
+import KeyboardAvoidingView from './component/KeyboardAvoidingView';
 import FlatListSimple from './component/ListViews/FlatListSimple';
 
 import UsingScrollView from './component/ScrollView';
@@ -15,8 +18,11 @@ const App = () => {
       {/* <UsingScrollView /> */}
       {/* <FlatListSimple /> */}
       {/* <SectionListBasics /> */}
-      <ButtonApp />
-      <ActivityIndicatorEg />
+      {/* <ButtonApp /> */}
+      {/* <ActivityIndicatorEg /> */}
+      {/* <ImageEg /> */}
+      {/* <ImageBackGroundEg /> */}
+      <KeyboardAvoidingView />
     </View>
   );
 };
